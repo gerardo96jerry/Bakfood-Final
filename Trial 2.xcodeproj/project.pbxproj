@@ -14,6 +14,7 @@
 		5641CF441FC4B8EC00F1583B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5641CF421FC4B8EC00F1583B /* LaunchScreen.storyboard */; };
 		5641CF4F1FC4B8EC00F1583B /* Trial_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641CF4E1FC4B8EC00F1583B /* Trial_2Tests.swift */; };
 		5641CF5A1FC4B8EC00F1583B /* Trial_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5641CF591FC4B8EC00F1583B /* Trial_2UITests.swift */; };
+		56DF888C1FCDF430004F6333 /* Bakfood.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56DF888A1FCDF430004F6333 /* Bakfood.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5641CF551FC4B8EC00F1583B /* Trial 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trial 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5641CF591FC4B8EC00F1583B /* Trial_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trial_2UITests.swift; sourceTree = "<group>"; };
 		5641CF5B1FC4B8EC00F1583B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56DF888B1FCDF430004F6333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Trial 2/Base.lproj/Bakfood.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		5641CF2D1FC4B8EC00F1583B = {
 			isa = PBXGroup;
 			children = (
+				56DF888A1FCDF430004F6333 /* Bakfood.storyboard */,
 				5641CF381FC4B8EC00F1583B /* Trial 2 */,
 				5641CF4D1FC4B8EC00F1583B /* Trial 2Tests */,
 				5641CF581FC4B8EC00F1583B /* Trial 2UITests */,
@@ -235,6 +238,7 @@
 				5641CF441FC4B8EC00F1583B /* LaunchScreen.storyboard in Resources */,
 				5641CF411FC4B8EC00F1583B /* Assets.xcassets in Resources */,
 				5641CF3F1FC4B8EC00F1583B /* Main.storyboard in Resources */,
+				56DF888C1FCDF430004F6333 /* Bakfood.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +314,14 @@
 				5641CF431FC4B8EC00F1583B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		56DF888A1FCDF430004F6333 /* Bakfood.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56DF888B1FCDF430004F6333 /* Base */,
+			);
+			name = Bakfood.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
